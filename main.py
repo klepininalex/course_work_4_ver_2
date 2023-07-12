@@ -4,7 +4,7 @@ from info import HH, SJ, JSONSaver, Vacancy
 def main():
     hh = HH("https://api.hh.ru/vacancies")
     sj = SJ("https://api.superjob.ru/2.0/vacancies/",
-            "v3.r.137642860.6f943dc178f8675c68f7a5902be47f0c8a0a210c.ba20f74c86325583a1ebeb9deed6012d10563e1f")
+            "API_KEY")
     keyword = input("Введите ключевое слово для поиска: ")
     """Ввод ключевого слова для запроса по API"""
 
